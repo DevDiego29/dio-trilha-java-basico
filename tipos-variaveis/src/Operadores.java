@@ -7,14 +7,15 @@ public class Operadores {
         int divisao = 15 / 3;
         int resto = 18 % 3;
         double resultado = (10 * 7) + (20/4);
-        System.out.println(soma);
-        System.out.println(subtracao);
-        System.out.println(multiplicacao);
-        System.out.println(divisao);
-        System.out.println(resto);
-        System.out.println(resultado);
 
-        String nomeCompleto = "Linguagem" + "Java";
+        System.out.println("O resultado da soma é: "+ soma);
+        System.out.println("O resultado da subtração é: " + subtracao);
+        System.out.println("O resultado da multiplicação é: " + multiplicacao);
+        System.out.println("O resultado da divisão é: " + divisao);
+        System.out.println("O resto da divisão é: " + resto);
+        System.out.println("O resultado da expressão é: " + resultado);
+
+        String nomeCompleto = "Linguagem" + " " + "Java";
         System.out.println(nomeCompleto);
 
         String concatenacao ="?";
